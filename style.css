@@ -1,0 +1,52 @@
+body{
+    background: #232323;
+    font-family: 'Baloo Bhai', cursive;
+}
+h1{
+    background-color: rgb(245, 201, 7);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin:0px;
+    padding: 40px;
+}
+#display{
+    background: white;
+    text-align: center;
+    border: none;  
+    height: 35px;
+}
+#rgb{
+    font-size: 180%;
+}
+#message{
+	display: inline-block;
+	width: 30%;
+}
+button:hover{
+    background: maroon;
+    color: #fff;
+}
+.selected{
+    background:rgb(245, 201, 7) ;
+}
+button{
+    border: none;
+    background: none;
+    color:maroon ;
+    letter-spacing: 1px;
+    height: 100%;
+}
+.square{
+	width: 30%;
+	background-color: whitesmoke;
+	padding-bottom: 30%;
+        float: left;
+        margin: 1.66%;
+        border-radius: 15%;
+}
+#container{
+    margin: 20px auto;
+    max-width: 500px;
+}
+
